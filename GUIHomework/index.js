@@ -35,19 +35,6 @@ async function getInfo(table) {
         tableBody.appendChild(rowElement);
         }
     )
-
-    // for(const obj of json){
-    //     const rowElement = document.createElement("tr");
-    //     console.log(obj);
-        // for(const cell of obj){
-        //     console.log(cell);
-        //     const cellElement = document.createElement("td");
-        //
-        //     cellElement.textContent = cell;
-        //     rowElement.appendChild(cell);
-        // }
-        // tableBody.appendChild(rowElement);
-    // }
 }
 
 getInfo(document.querySelector('table'));
